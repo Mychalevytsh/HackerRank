@@ -23,13 +23,13 @@ public class Obmin_Valut {
             Locale IND = new Locale("English","India");
 
             NumberFormat indiaF = NumberFormat.getCurrencyInstance(IND.ENGLISH);
-            IND.
-            String us = usF.format(payment);
+
+            //String us = usF.format(payment);
             String india = indiaF.format(payment);
             String china = chinaF.format(payment);
             String france = franceF.format(payment);
 
-            System.out.println("US: " + us);
+            //System.out.println("US: " + us);
             System.out.println("India: " + india);
             System.out.println("China: " + china);
             System.out.println("France: " + france);
